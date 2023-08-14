@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.navbar{
+    background-color: #333333;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    gap: 280px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.navbar ul{
+    font-size: 17px;
+    display:flex;
+    gap: 40px;
+    list-style: none;
+    padding: 24px 0;
+}
+
+.navbar>a{
+    
+    color:white;
+    text-decoration: none;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.hero-section{
+    background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-position: center 72%;
+    background-size: cover;
+    height:90vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.background-opacity{
+    background-color: rgba(0, 0, 0 ,0.2);
+    height: 90vh;
+}
+
+.hero-text{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: #F2F2F2;
+    padding-top: 10.5%;
+    min-width: 800px;
+    z-index: 2;
+}
+.hero-text p{
+    font-size: 60px;
+    font-weight: bold;
+}
+.hero-text p+p{
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 10px 70px;
+}
+.hero-text section{
+ margin-top: 50px;
+}
+.hero-text a{
+    color: black;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    background-color:rgba(244, 244, 244, 1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px;
+
+}
+main{
+    z-index: 2;
+    top: 290px;
+    background-color: #F2F2F2;
+}
+main .service-detail{
+    text-align: center;
+    padding: 75px 0 50px  ;
+}
+.items{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 45px;
+}
+
+.image-and-text{
+ width: 365px;
+ height: 330px;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /* gap: 20px; */
+}
+ .image-and-text p{
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.image-and-text h3{
+margin-top: -10px;
+}
+.image-and-text img{
+    margin-bottom:40px ;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.about-us{
+    text-align: center;
+    padding: 120px 0 40px  ;
+}
+.our-story{
+    padding: 20px 170px 70px  
+}
+.our-story p{
+    margin: 10px 0 30px;
+}
+.our-story ul{
+    margin: 10px 20px;
+    line-height: 24px;
+}
+footer{
+    height: 75vh;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+footer li {
+    display: flex;
+    gap: 10px;
+    line-height: 35px;
+    align-items: center;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer input{
+    width: 530px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #BFBFBF;
+    font-size: 16px;
+}
+.contact-us{
+    text-align: center;
+    padding: 0px 0 50px  ;
+}
+textarea{
+    padding: 10px;
+    border-color: #BFBFBF;
+    font-size: 16px;
+}
+footer .material-icons {
+    font-size: 20px;
+    color: #7A7A7A;
+}
+footer button{
+    width: 150px;
+    padding: 8px 0; 
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-text a:hover{
+    transition: ease-in 0.2s;
+    border: 1px solid white;
+    color: #F2F2F2;
+    background-color: rgba(244, 244, 244, 0.2);
+   } 
+
+
