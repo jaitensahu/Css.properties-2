@@ -27,6 +27,9 @@ Position is set to sticky so that navbar sticks to the top when scrolling.<br>
 Targeted unorder list by using decendent selector and used properties like font-size to change the size of the font and diplay property is set to flex to make all li's inline elements and gap to give space between all the li's.<br>
 targeted all the anchor tag and used properties like text-decoration to remove any default styling of the test.<br>
 <br>
+<br>Nav Bar is ready<br>
+![navv](https://github.com/jaitensahu/Css.properties-2/assets/127736781/1bff544d-8ea0-42d2-9fe0-23147c93eb32)
+<br>
 <hr>
 
 ![hero section](https://github.com/jaitensahu/Css.properties-2/assets/127736781/674596f2-02f2-4f6b-b297-e2bf6657269b)
@@ -43,9 +46,26 @@ used z-index property and set its value to lowest so that the container with gre
 <br>
 selected text of the hero section by targeting the container of class hero-text and used properties like width, margin, text-align, color, padding to style the text.<br>
 <hr>
+<br>here is the hero section<br>
 
+![hero section](https://github.com/jaitensahu/Css.properties-2/assets/127736781/1e57f0e0-077c-4c42-ab80-2ff97f73a0e4)
+
+in the main section we are having Service section, about us section and contact us section.<br>
 ![main1](https://github.com/jaitensahu/Css.properties-2/assets/127736781/ede3ec7b-5037-43d0-988b-daf67185487a)
 <br>
 ![about us](https://github.com/jaitensahu/Css.properties-2/assets/127736781/a43c4092-0a63-4fb5-9204-f42dc5ead2b0)
 <br>
+
+here we are having service section<br>
+![servicee](https://github.com/jaitensahu/Css.properties-2/assets/127736781/a2ac4190-5311-4bd2-880f-592983c3afde)
+<br>
+<br>Here we are having about us section<br>
+![about section](https://github.com/jaitensahu/Css.properties-2/assets/127736781/ff5b3801-7f18-46f4-a346-71a79c3d3b34)
+<br>
+<br>here we are having contact us section<br>
+![contact](https://github.com/jaitensahu/Css.properties-2/assets/127736781/23184c6b-ecf7-406b-8cab-08371314bbaa)
+
+
+
+
 
